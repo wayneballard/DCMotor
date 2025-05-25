@@ -1,15 +1,24 @@
 %close all;clear;clc;
 
-tl=-10:2:10;
-km=1.5; ke=0.05;
 V=100;R=5;
 
 TL=2;
-kp=1.5;
+kphi=1.5;
 OM=50;
 
 L=0.05;
 J=0.05;
+
+T_p = 0.01
+
+Kb = 18
+Tii= L/R
+Kpi = Tii/(2*(1/R)*T_p)
+Kii = Kpi/Tii
+
+Tiw = 4*2*T_p
+Kpw = J/(2*kphi*2*T_p)
+Kiw = Kpw/Tiw
 
 
 current_time = out.ISE_current.Time
