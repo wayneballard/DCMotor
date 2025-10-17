@@ -23,7 +23,7 @@ where:
 - $\( k_e \)$ = electro-emechanical constant 
 - \( R \) = armature resistance  
 - \( L \) = armature inductance
-- \(T_L \) = torque load
+- $\(T_L \)$ = torque load
 
 ### Key Results
 - Implemented PI controller achievieng stable motor operation with a storng distrubance rejection.
