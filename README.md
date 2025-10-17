@@ -17,8 +17,8 @@ where:
 
 - \( J \) = moment of inertia  
 - \( b \) = damping coefficient  
-- \( K_{\varphi} \) = motor speed constant
-- \( k_e \) = electoemechanical constant 
+- $\( K_{\varphi} \)$ = motor speed constant
+- $\( k_e \)$ = electro-emechanical constant 
 - \( R \) = armature resistance  
 - \( L \) = armature inductance
 
