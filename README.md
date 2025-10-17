@@ -7,6 +7,8 @@ The report includes analysis of system dynamics, transfer function derivation, a
 
 ### Key Results
 - Derived transfer function:  
-  $$ G(s) = \frac{K}{(Js + b)(Ls + R) + K^2} $$
+  $$
+  G(s) = \frac{K}{(Js + b)(Ls + R) + K^2}
+  $$
 - Implemented PI controller achievieng stable motor operation with a storng distrubance rejection.
 - Implemented two control loops: current control loop and speed control loop
