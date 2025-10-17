@@ -14,13 +14,15 @@ $$
 $$
 
 where:
-
+- \(I(s) \) = current
+- |(\Omega(s) \) = motor speed
 - \( J \) = moment of inertia  
 - \( b \) = damping coefficient  
-- $\( K_{\varphi} \)$ = motor speed constant
+- $\( k_{\varphi} \)$ = motor speed constant
 - $\( k_e \)$ = electro-emechanical constant 
 - \( R \) = armature resistance  
 - \( L \) = armature inductance
+- \(T_L \) = torque load
 
 ### Key Results
 - Implemented PI controller achievieng stable motor operation with a storng distrubance rejection.
