@@ -1,4 +1,6 @@
-# DCMotor
-Simple DC motor simulation in simulink and some coding :3
+## DC Motor Project
 
-The data from simulink diagram is imported into workspace and the processed in python file
+This project models and simulates a DC motor using MATLAB/Simulink.  
+The report includes analysis of system dynamics, transfer function derivation, and speed control design.
+
+📘 **Read the full report:** [DC_Motor_Report.pdf](./DCmotor.pdf)
