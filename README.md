@@ -10,7 +10,7 @@ The report includes analysis of system dynamics, transfer function derivation, a
 The transfer function of the DC motor is derived as:
 
 $$
-G(s) = \frac{K}{(J s + b)(L s + R) + K^2}
+\frac{V_A(s)}{\Omega(s)} = \frac{s^2JLI(s) + JsRI(s) + Jsk_e\Omega(s)}{K_{\varphi}I(s) -T_L}
 $$
 
 where:
