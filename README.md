@@ -10,14 +10,15 @@ The report includes analysis of system dynamics, transfer function derivation, a
 The transfer function of the DC motor is derived as:
 
 $$
-\frac{V_A(s)}{\Omega(s)} = \frac{s^2JLI(s) + JsRI(s) + Jsk_e\Omega(s)}{K_{\varphi}I(s) -T_L}
+\frac{V_A(s)}{\Omega(s)} = \frac{s^2JLI(s) + JsRI(s) + Jsk_e\Omega(s)}{k_{\varphi}I(s) -T_L}
 $$
 
 where:
 
 - \( J \) = moment of inertia  
 - \( b \) = damping coefficient  
-- \( K \) = motor constant  
+- \( K_{\varphi} \) = motor speed constant
+- \( k_e \) = electoemechanical constant 
 - \( R \) = armature resistance  
 - \( L \) = armature inductance
 
