@@ -14,7 +14,7 @@ $$
 $$
 
 where:
-- \(V_A(s) \) = input voltage
+- $\(V_A(s) \)$ = input voltage
 - \(I(s) \) = current
 - $\(\Omega(s) \)$ = motor speed
 - \( J \) = moment of inertia  
