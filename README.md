@@ -15,7 +15,7 @@ $$
 
 where:
 - \(I(s) \) = current
-- |(\Omega(s) \) = motor speed
+- \(\Omega(s) \) = motor speed
 - \( J \) = moment of inertia  
 - \( b \) = damping coefficient  
 - $\( k_{\varphi} \)$ = motor speed constant
