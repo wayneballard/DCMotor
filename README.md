@@ -5,6 +5,22 @@ The report includes analysis of system dynamics, transfer function derivation, a
 
 📘 **Read the full report:** [DC_Motor_Report.pdf](./DCmotor.pdf)
 
+## DC Motor Model
+
+The transfer function of the DC motor is derived as:
+
+$$
+G(s) = \frac{K}{(J s + b)(L s + R) + K^2}
+$$
+
+where:
+
+- \( J \) = moment of inertia  
+- \( b \) = damping coefficient  
+- \( K \) = motor constant  
+- \( R \) = armature resistance  
+- \( L \) = armature inductance
+
 ### Key Results
 - Derived transfer function:  
   $$
